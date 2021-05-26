@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Lever jouw recept in!</h1>
+    <p>Heb jij ook zo'n lekker recept die iedereen eens moet gaan maken? Wij verzamelen en bundelen ze in een e-book. Zo
+        heb je altijd inspiratie overal bij de hand!</p>
+
+    <form name="contact" method="POST" data-netlify="true" action="/action_page.php">
+        <label for="name">Volledige naam:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Emailadres:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="tel">Telefoonnummer</label><br>
+        <input type="tel" id="tel" name="tel"><br>
+        <label for="birthday">Geboortedatum</label><br>
+        <input type="date" id="birthday" name="birthday">
+        <p><label for="gender">Geslacht</label><br>
+            <input type="radio" id="man" name="man"><label for="gender">man</label>
+            <input type="radio" id="vrouw" name="vrouw"><label for="gender">vrouw</label>
+        </p>
+        <p><label for="checkbox">Favoriete soort keuken</label><br>
+            <input type="checkbox" id="Hollands" name="Hollands"><label for="checkbox">Hollands</label><br>
+            <input type="checkbox" id="Frans" name="Frans"><label for="checkbox">Frans</label><br>
+            <input type="checkbox" id="Italiaans" name="Italiaans"><label for="checkbox">Italiaans</label><br>
+            <input type="checkbox" id="Mexicaans" name="Mexicaans"><label for="checkbox">Mexicaans</label><br>
+            <input type="checkbox" id="Oosters" name="Oosters"><label for="checkbox">Oosters</label><br>
+        </p>
+        <p><label for="favcolor">Favoriete kleur short</label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </p>
+        <label for="textarea">Biografie</label><br>
+        <textarea rows="20" cols="75" name="textarea"></textarea><br>
+        <p><label for="myfile">Upload jouw recept</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        <p><label for="url">Jouw website met recepten</label><br>
+            <input type="url" id="url" name="url">
+        </p>
+        <p><input type="reset" value="resetten">
+            <label for="reset">Klik op de button om te resetten</label>
+        </p>
+        <p><input type="submit" value="Versturen">
+            <label for="submit">Klik op de button om te versturen</label>
+        </p>
+        <input type="checkbox" id="vink" name="vink" value="vink">
+        <label for="vink">D.m.v. het aanvinken ga ik akkoord dat mijn gegevens conform de AVG worden
+            bewaard.</label><br>
+    </form>
+
+
+    <a href="index.html">Homepage</a>
+
+</body>
+
+</html>
